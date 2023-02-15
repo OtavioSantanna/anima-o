@@ -1,0 +1,24 @@
+.minha_engrenagem
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: engrena 5s ease-out;
+}
+.minha_engrenagem2
+{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    animation: engrena2 5s ease-out;
+}
+@keyframes engrena
+{
+    0% {rotate: 0deg;}
+    100% {rotate: 360deg;}    
+}
+@keyframes engrena2 
+{
+    0% {rotate: 0deg;}
+    100% {rotate: -360deg;}    
+}
